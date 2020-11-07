@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.0 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2020.11.07 às 12:09:13 PM BRT 
+
+  -->
+      
+    <bindings xmlns:tns="http://cliente.bean.master.sigep.bsb.correios.com.br/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.massao.webservices.cep.correios.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:VerificaSeTodosObjetosCancelados">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.VerificaSeTodosObjetosCancelados"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:VerificaSeTodosObjetosCanceladosResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.VerificaSeTodosObjetosCanceladosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaPagamentoNaEntrega">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.AtualizaPagamentoNaEntrega"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaPagamentoNaEntregaResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.AtualizaPagamentoNaEntregaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaRemessaAgrupada">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.AtualizaRemessaAgrupada"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaRemessaAgrupadaResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.AtualizaRemessaAgrupadaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:bloquearObjeto">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BloquearObjeto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:bloquearObjetoResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BloquearObjetoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaCliente">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaClienteResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaClienteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaContrato">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaContrato"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaContratoResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaContratoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaDataAtual">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaDataAtual"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaDataAtualResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaDataAtualResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaOpcoes">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaOpcoes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaOpcoesResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaOpcoesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaPagamentoEntrega">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaPagamentoEntrega"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaPagamentoEntregaResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaPagamentoEntregaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicos">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaServicos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosAdicionaisAtivos">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaServicosAdicionaisAtivos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosAdicionaisAtivosResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaServicosAdicionaisAtivosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaServicosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosValorDeclarado">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaServicosValorDeclarado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosValorDeclaradoResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaServicosValorDeclaradoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosXServicosAdicionais">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaServicosXServicosAdicionais"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosXServicosAdicionaisResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaServicosXServicosAdicionaisResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaTarifaVale">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaTarifaVale"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaTarifaValeResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.BuscaTarifaValeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:calculaTarifaServico">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.CalculaTarifaServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:calculaTarifaServicoResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.CalculaTarifaServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarObjeto">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.CancelarObjeto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarObjetoResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.CancelarObjetoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarPedidoScol">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.CancelarPedidoScol"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarPedidoScolResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.CancelarPedidoScolResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultaCEP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ConsultaCEP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultaCEPResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ConsultaCEPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlp">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.FechaPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlpResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.FechaPlpResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlpVariosServicos">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.FechaPlpVariosServicos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlpVariosServicosResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.FechaPlpVariosServicosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:geraDigitoVerificadorEtiquetas">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.GeraDigitoVerificadorEtiquetas"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:geraDigitoVerificadorEtiquetasResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.GeraDigitoVerificadorEtiquetasResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusCartaoPostagem">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.GetStatusCartaoPostagem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusCartaoPostagemResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.GetStatusCartaoPostagemResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusPLP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.GetStatusPLP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusPLPResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.GetStatusPLPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:integrarUsuarioScol">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.IntegrarUsuarioScol"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:integrarUsuarioScolResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.IntegrarUsuarioScolResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterClienteAtualizacao">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ObterClienteAtualizacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterClienteAtualizacaoResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ObterClienteAtualizacaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterEmbalagemLRS">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ObterEmbalagemLRS"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterEmbalagemLRSResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ObterEmbalagemLRSResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterMensagemParametrizada">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ObterMensagemParametrizada"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterMensagemParametrizadaResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ObterMensagemParametrizadaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarDimensoesServico">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.PesquisarDimensoesServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarDimensoesServicoResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.PesquisarDimensoesServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarEmbalagensPorServico">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.PesquisarEmbalagensPorServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarEmbalagensPorServicoResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.PesquisarEmbalagensPorServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarParametrosPorDescricao">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.PesquisarParametrosPorDescricao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarParametrosPorDescricaoResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.PesquisarParametrosPorDescricaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarServicosAdicionais">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.PesquisarServicosAdicionais"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarServicosAdicionaisResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.PesquisarServicosAdicionaisResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaEtiquetas">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.SolicitaEtiquetas"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaEtiquetasResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.SolicitaEtiquetasResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaPLP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.SolicitaPLP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaPLPResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.SolicitaPLPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaXmlPlp">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.SolicitaXmlPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaXmlPlpResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.SolicitaXmlPlpResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitarPostagemScol">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.SolicitarPostagemScol"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitarPostagemScolResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.SolicitarPostagemScolResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaEtiquetaPLP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ValidaEtiquetaPLP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaEtiquetaPLPResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ValidaEtiquetaPLPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaPlp">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ValidaPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaPlpResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ValidaPlpResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemReversa">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ValidarPostagemReversa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemReversaResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ValidarPostagemReversaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemSimultanea">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ValidarPostagemSimultanea"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemSimultaneaResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ValidarPostagemSimultaneaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaDisponibilidadeServico">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.VerificaDisponibilidadeServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaDisponibilidadeServicoResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.VerificaDisponibilidadeServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaModalTransporte">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.VerificaModalTransporte"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaModalTransporteResponse">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.VerificaModalTransporteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SQLException">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.SQLException"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Exception">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.Exception"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ErroMontagemRelatorio">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ErroMontagemRelatorio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoAdicionalXML">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ServicoAdicionalXML"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objetoPostal">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ObjetoPostal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objetoPostalPK">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ObjetoPostalPK"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:preListaPostagem">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.PreListaPostagem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cartaoPostagemERP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.CartaoPostagemERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:contratoERP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ContratoERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:clienteERP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ClienteERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:gerenteConta">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.GerenteConta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:usuarioInstalacao">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.UsuarioInstalacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:parametroMaster">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ParametroMaster"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:contratoERPPK">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ContratoERPPK"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:unidadePostagemERP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.UnidadePostagemERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enderecoERP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.EnderecoERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoERP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ServicoERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoSigep">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ServicoSigep"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:chancelaMaster">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ChancelaMaster"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoAdicionalERP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ServicoAdicionalERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:valorDeclarado">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ValorDeclarado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:vigenciaERP">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.VigenciaERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:dimensaoTO">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.DimensaoTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:medidaTO">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.MedidaTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:embalagemLRSMaster">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.EmbalagemLRSMaster"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:valePostal">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ValePostal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:coletaSimultanea">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ColetaSimultanea"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:coleta">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.Coleta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:produto">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.Produto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:remetente">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.Remetente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pessoa">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.Pessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoAdicionalTO">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ServicoAdicionalTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:retornoCancelamento">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.RetornoCancelamento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objetoSimplificado">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ObjetoSimplificado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:coletaReversa">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.ColetaReversa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objeto">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.Objeto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:mensagemParametrizadaTO">
+                  
+            <class ref="br.com.massao.webservices.cep.correios.wsdl.MensagemParametrizadaTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusGerente">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.StatusGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoGerente">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.TipoGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusUsuario">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.StatusUsuario"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:categoriaServico">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.CategoriaServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:simNao">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.SimNao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusPlp">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.StatusPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusObjetoPostal">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.StatusObjetoPostal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoEmbalagem">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.TipoEmbalagem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusCartao">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.StatusCartao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoBloqueio">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.TipoBloqueio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:acao">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.Acao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoMensagem">
+                  
+            <typesafeEnumClass ref="br.com.massao.webservices.cep.correios.wsdl.TipoMensagem"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
