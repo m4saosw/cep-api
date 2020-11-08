@@ -1,6 +1,6 @@
 package br.com.massao.webservices.cep.v1.service;
 
-import javax.xml.bind.JAXBElement;
+import javax.xml.bind.JAXBIntrospector;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,7 +20,7 @@ public class CepCorreiosWs extends WebServiceGatewaySupport {
 	 * @return
 	 */
 	public ConsultaCEPResponse getCep(String cep) {
-		LOG.info("Requesting location for {}", cep);
+		LOG.info("Consultando cep {}", cep);
 		
 				
 		ConsultaCEP request = new ConsultaCEP();
@@ -33,13 +33,10 @@ public class CepCorreiosWs extends WebServiceGatewaySupport {
 
 		
 		ObjectFactory factory = new ObjectFactory();
-		JAXBElement<ConsultaCEPResponse> response = (JAXBElement<ConsultaCEPResponse>) getWebServiceTemplate().marshalSendAndReceive(
-				url, factory.createConsultaCEP(request));
+		ConsultaCEPResponse response = (ConsultaCEPResponse) JAXBIntrospector.getValue(getWebServiceTemplate().marshalSendAndReceive(
+				url, factory.createConsultaCEP(request)));
 
-		
-		
-		
-		return response.getValue();
+		return response;
 	}
 
 }
