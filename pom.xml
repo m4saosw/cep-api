@@ -63,7 +63,10 @@
 			<version>${moshi.version}</version>
 		</dependency>
 
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 
 
 		<!-- Development -->
@@ -88,22 +91,42 @@
 				<artifactId>maven-jaxb2-plugin</artifactId>
 				<version>0.14.0</version>
 				<executions>
-					<execution>
+					<!-- <execution>
+						<id>1</id>
 						<goals>
 							<goal>generate</goal>
 						</goals>
-					</execution>
+						<configuration>
+							<generatePackage>br.com.massao.webservices.cep.correios.wsdl</generatePackage>
+							<schemaDirectory>${project.basedir}/src/main/resources/wsdl</schemaDirectory>
+							<schemaIncludes>
+								<schemaInclude>CorreiosAtendeCliente.wsdl</schemaInclude>
+							</schemaIncludes>
+						</configuration>
+					</execution> -->
+
+					<!-- <execution>
+						<id>2</id>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<generatePackage>br.com.massao.webservices.rastreamento.correios.wsdl</generatePackage>
+							<schemaDirectory>${project.basedir}/src/main/resources/wsdl</schemaDirectory>
+							<schemaIncludes>
+								<schemaInclude>CorreiosRastro.wsdl</schemaInclude>
+								<schemaInclude>Rastro_schema1.xsd</schemaInclude>
+							</schemaIncludes>
+							<schemas> <schema> <url>http://webservice.correios.com.br/service/rastro/CorreiosRastro.wsdl</url> 
+								</schema> </schemas> 
+						</configuration>
+					</execution> -->
+
 				</executions>
+
 				<configuration>
 					<schemaLanguage>WSDL</schemaLanguage>
 					<generateDirectory>${project.basedir}/src/main/java</generateDirectory>
-					<generatePackage>br.com.massao.webservices.cep.correios.wsdl</generatePackage>
-					<schemaDirectory>${project.basedir}/src/main/resources/wsdl</schemaDirectory>
-					<!-- <schemas> <schema> <url>https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente?wsdl</url> 
-						</schema> </schemas> -->
-					<schemaIncludes>
-						<schemaInclude>CorreiosAtendeCliente.wsdl</schemaInclude>
-					</schemaIncludes>
 				</configuration>
 			</plugin>
 		</plugins>
